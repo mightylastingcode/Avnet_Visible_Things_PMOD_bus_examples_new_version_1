@@ -3,14 +3,13 @@ New examples for PMOD Configuration for Avnet Visible Things (Renesas S7G2 based
 
 PMOD examples (GPIO input, GPIO output, SPI, I2C, and UART) for S2G7 based Avnet Visible Thing Gateway Evaluation Board
 
+Project RTOS based Examples: 
 
+gw002_example_gpio_12pin_rtos_v1b.zip   - GPIO Type 1, 12 pins (how to set pins as input or output pins)
+gw002_example_gpio_6pin_rtos_v1a.zip    - GPIO Type 1, 6 pins  (how to set pins as input or output pins)
+gw002_example_i2c_rtos_v1e.zip          - I2C 4 pins (read the voltage level from a potentiometer)  
+gw002_example_spi_rtos_v1a.zip          - SPI Type 2 6 pins (read xyz, and device ID)  
+gw002_example_uart_rtos_v1d.zip         - UART Type 4, 6  pins (Print the PMOD2 input pattern on PC serial term) 
+gw002_example_gpio_i2c_spi_uart_v1h.zip - Combine GPIO, SPI, I2C and UART examples together
 
-
-
-
-    PMOD1 : 	GPIO Type 1, 12 pins (Use 8 LEDs to display PMOD 2 input pattern)
-    PMOD2 : 	GPIO type 1, 12 pins (inputs for 8 jumper wires to either VCC or GND)
-    PMOD3 : 	SPI Type 2 6 pins (read xyz, and device ID)  SCI1 Simple SPI mode
-    PMOD4 : 	UART Type 4, 6  pins (Print the PMOD2 input pattern on PC serial term)  
-              SCI5  Asy UART mode
-    PMOD6 : 	I2C 4 pins (read the voltage level from the potentiometer)  IIC1 framework driver
+All the pdf files contain the information on the Renesas project configuration as well as what output result to expect from these examples.   Hardware setup diagrams are included.
