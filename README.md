@@ -5,7 +5,16 @@ PMOD examples (GPIO input, GPIO output, SPI, I2C, and UART) for S2G7 based Avnet
 
 Note: PMOD ports are configured through the PCA9535 chip on the Avnet board.
 
-Project RTOS based Examples: 
+Software
+
+1. Renesas E2 Studio Tool version Version: 5.3.1.002
+
+2. Renesas SSP version 1.2.0
+
+3. gw002_rev1_3 board file
+
+
+Project (RTOS based) Examples: 
 
 gw002_example_gpio_12pin_rtos_v1b.zip   - GPIO Type 1, 12 pins (how to set pins as input or output pins)
 gw002_example_gpio_6pin_rtos_v1a.zip    - GPIO Type 1, 6 pins  (how to set pins as input or output pins)
